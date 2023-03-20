@@ -3,8 +3,7 @@ from [videos-stats$]
 
 select * from comments$
 
-
---What are the least commented-upon videos? Or the most liked?
+--What are the most commented-upon videos? Or the most liked?
 Select title, comments
 from [videos-stats$]
 order by comments desc
@@ -14,7 +13,6 @@ from [videos-stats$]
 order by likes desc
 -- Output (Most commented): I Opened A Restaurant That Pays You To Eat At It
 -- Output (Most liked): $456,000 Squid Game In Real Life!
-
 
 --How many total views does each category have? How many likes?
 Select keyword, sum(views)
