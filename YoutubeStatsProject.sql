@@ -47,6 +47,3 @@ from [videos-stats$] as v
 JOIN comments$ as c
 ON v.[Video ID] = c.[Video ID]
 group by v.Keyword
-
-select * 
-from [videos-stats$]
