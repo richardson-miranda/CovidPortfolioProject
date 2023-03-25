@@ -30,5 +30,5 @@ Order by Temperature ASC
 
 
 --Conclude whether the weather has an essential impact on sales.
-	-- The top 45 sales weeks are in the months of November and December,
+	-- Many top sales weeks are in the months of November and December,
 	-- indicating that the holiday season has an impact on sales
