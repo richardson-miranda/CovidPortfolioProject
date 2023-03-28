@@ -1,3 +1,5 @@
+-- Data Source: https://www.kaggle.com/datasets/advaypatil/youtube-statistics?select=comments.csv
+
 select * 
 from [videos-stats$]
 
