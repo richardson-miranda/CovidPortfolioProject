@@ -1,3 +1,5 @@
+-- Joined together multiple tables to create a new data spreadsheet 
+
 select 
 	ord.order_id,
 	CONCAT(cus.first_name, ' ', cus.last_name) as customers,
