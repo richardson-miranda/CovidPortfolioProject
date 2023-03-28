@@ -32,7 +32,9 @@ LEFT OUTER JOIN orders as o
 ON c.id = o.customer_id;
 
 
-/*Create another query that will result in one row per each customer, with their name, email, and total amount of money they've spent on orders. Sort the rows according to the total money spent, from the most spent to the least spent.*/
+/*Create another query that will result in one row per each customer, 
+with their name, email, and total amount of money they've spent on orders. 
+Sort the rows according to the total money spent, from the most spent to the least spent.*/
 
 SELECT c.name, c.email, SUM(o.price) AS "total"
 FROM customers as c
