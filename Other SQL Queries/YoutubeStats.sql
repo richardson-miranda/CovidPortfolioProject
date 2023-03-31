@@ -1,5 +1,9 @@
 -- Data Source: https://www.kaggle.com/datasets/advaypatil/youtube-statistics?select=comments.csv
 
+select * 
+from [videos-stats$]
+
+select * from comments$
 
 --What is the average sentiment score in each keyword category?
 select v.keyword, AVG(c.sentiment) as Sentiment_Score
