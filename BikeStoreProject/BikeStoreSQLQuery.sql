@@ -1,4 +1,4 @@
--- Joined together 7 tables to create a new spreadsheet 
+-- Created a query that pulled together data from 8 seperate tables to create a new spreadsheet 
 
 select 
 	ord.order_id,
